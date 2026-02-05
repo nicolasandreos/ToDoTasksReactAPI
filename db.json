@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "id": 7,
+      "title": "Study JuavaScript pattern",
+      "status": "to_do",
+      "description": "Learn common design patterns used in modern JavaScript applications.",
+      "period": "night"
+    },
+    {
+      "id": 8,
+      "title": "Prepare presentation",
+      "status": "done",
+      "description": "Create slides for the upcoming sprint review meeting.",
+      "period": "evening"
+    },
+    {
+      "title": "sas290",
+      "period": "morning",
+      "description": "as",
+      "status": "to_do",
+      "id": 54
+    },
+    {
+      "title": "99",
+      "period": "morning",
+      "description": "99",
+      "status": "to_do",
+      "id": 55
+    },
+    {
+      "title": "test",
+      "period": "morning",
+      "description": "test",
+      "status": "to_do",
+      "id": 57
+    }
+  ]
+}
