@@ -4,7 +4,7 @@ const path = require('path');
 
 const server = jsonServer.create();
 
-const filePath = path.join('db.json');
+const filePath = path.join(process.cwd(), 'db.json');
 const data = fs.readFileSync(filePath, 'utf-8');
 const db = JSON.parse(data);
 
@@ -16,8 +16,5 @@ server.use(jsonServer.rewriter({
   '/api/*': '/$1',
 }));
 server.use(router);
-server.listen(3000, () => {
-  console.log('JSON Server is running on port 3000');
-});
 
 module.exports = server;
