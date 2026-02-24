@@ -1,47 +1,53 @@
 # 🗄️ Task Manager API (Mock Backend)
 
-API simulada desenvolvida com json-server para servir como backend do projeto Task Manager.
+A mock API built with **json-server** to serve as the backend for the Task Manager project.
 
-Este repositório foi criado com o objetivo de simular um ambiente real de integração entre frontend e backend, mantendo a separação de responsabilidades entre as aplicações.
+This repository was created to simulate a real-world integration environment between frontend and backend applications, maintaining a clear separation of responsibilities.
 
-🔗 Frontend Repository: https://github.com/nicolasandreos/Task-Manager-React
-🚀 Deploy do Frontend: https://task-manager-react-six-rho.vercel.app/
+🔗 Frontend Repository: https://github.com/nicolasandreos/Task-Manager-React  
+🚀 Frontend Deployment: https://task-manager-react-six-rho.vercel.app/
 
 ---
 
-## 📦 Tecnologias Utilizadas
+## 📦 Technologies Used
 
 - Node.js
 - json-server
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Purpose
 
-Simular uma API REST para:
+Simulate a REST API to:
 
-- Criar tarefas
-- Listar tarefas
-- Atualizar tarefas
-- Remover tarefas
-- Atualizar status da tarefa
+- Create tasks  
+- List tasks  
+- Update tasks  
+- Delete tasks  
+- Update task status  
 
-A estrutura segue o padrão RESTful para simular um backend real.
+The structure follows RESTful standards to replicate a real backend environment.
 
 ---
 
-## 🛠️ Como Rodar Localmente
+## 🛠️ How to Run Locally
 
 ```bash
-# Clonar repositório
-git clone https://github.com/seu-user/task-manager-api.git
+# Clone the repository
+git clone https://github.com/your-username/task-manager-api.git
 
-# Entrar na pasta
+# Navigate into the project folder
 cd task-manager-api
 
-# Instalar dependências
+# Install dependencies
 npm install
 
-# Rodar servidor
+# Start the server
 npx json-server --watch db.json --port 3000
+```
+
+The API will be available at:
+
+```
+http://localhost:3000
 ```
